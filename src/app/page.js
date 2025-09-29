@@ -222,61 +222,77 @@ export default function Home() {
 
         {/* Social Work and Membership */}
         <div className="grid md:grid-cols-2 gap-6 mb-12">
-          
-          <div>
-            <h3
-  className="flex items-center text-xl font-bold text-blue-600 mb-4"
-  style={{ fontFamily: 'Times New Roman, serif' }}
->
-  <div className="w-full h-[1px] rounded-lg bg-[#0085DC] mb-5 absolute left-0"></div>
-  <img src="/social-work.svg" alt="Social Work" className="w-6 h-6 mr-2 relative z-10" />
-  <span className="relative z-10">Social Work</span>
-</h3>
+  {/* Social Work */}
+  <div>
+    {/* Divider Line */}
+    <div className="w-full h-[1px] rounded-lg bg-[#0085DC] mb-5"></div>
 
-            
-            <ul className="space-y-3 text-base text-gray-700">
-              {[
-                'Free Surgical Camp At Sehat NGO, Kurla West',
-                'Health Camp At Criticare Asia Hospital',
-              ].map((work) => (
-                <li className="flex items-start" key={work}>
-                  <span className="w-4 h-4 rounded-full bg-yellow-400 border-2 border-blue-500 mr-3 mt-1.5 flex-shrink-0"></span>
-                  <span>{work}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-          <div>
-           <h3
-  className="flex items-center text-xl font-bold text-blue-600 mb-4"
-  style={{ fontFamily: 'Times New Roman, serif' }}
->
-  <div className="w-full h-[1px] rounded-lg bg-[#0085DC] mb-5 ml-[-25] absolute left-0"></div>
-  <img src="/member.svg" alt="Membership" className="w-6 h-6 
-   mr-2 relative z-10" />
-  <span className="relative z-10">Membership</span>
-</h3>
+    {/* Heading with icon */}
+    <h3
+      className="flex items-center text-xl font-bold text-blue-600 mb-4"
+      style={{ fontFamily: 'Inter, sans-serif',color:'#004979' }}
+    >
+      <img src="/social-work.svg" alt="Social Work" className="w-6 h-6 mr-2" />
+      <span>Social Work</span>
+    </h3>
 
-            <ul className="space-y-3 text-base text-gray-700">
-              {[
-                'Member of Association of Surgeons of India and Maharashtra Surgical Society',
-                'Member of Asia-Pacific Hernia Society, & Hernia Society of India',
-                'Member of Minimal Access Surgeons of India',
-              ].map((member) => (
-                <li className="flex items-start" key={member}>
-                  <span className="w-4 h-4 rounded-full bg-yellow-400 border-2 border-blue-500 mr-3 mt-1.5 flex-shrink-0"></span>
-                  <span>{member}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-        </div>
+    <ul className="space-y-3 text-base font-semibold text-gray-700">
+      {[
+        'Free Surgical Camp At Sehat NGO, Kurla West',
+        'Health Camp At Criticare Asia Hospital',
+      ].map((work) => (
+        <li
+          className="flex items-start"
+          key={work}
+          style={{ fontFamily: 'Poppins, sans-serif' }}
+        >
+          <span className="w-4 h-4 rounded-full bg-yellow-400 border-2 border-blue-500 mr-3 mt-1.5 flex-shrink-0"></span>
+          <span>{work}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+
+  {/* Membership */}
+  <div>
+    {/* Divider Line */}
+    <div className="w-full -ml-6  h-[1px] rounded-lg bg-[#0085DC] mb-5"></div>
+
+    {/* Heading with icon */}
+    <h3
+      className="flex items-center text-xl font-bold text-blue-600 mb-4"
+      style={{ fontFamily: 'Inter, sans-serif',color:'#004979' }}
+    >
+      <img src="/member.svg" alt="Membership" className="w-6 h-6 mr-2" />
+      <span>Membership</span>
+    </h3>
+
+    <ul className="space-y-3 text-base font-semibold text-gray-700">
+      {[
+        'Member of Association of Surgeons of India and Maharashtra Surgical Society',
+        'Member of Asia-Pacific Hernia Society, & Hernia Society of India',
+        'Member of Minimal Access Surgeons of India',
+      ].map((member) => (
+        <li
+          className="flex items-start"
+          key={member}
+          style={{ fontFamily: 'Poppins, sans-serif' }}
+        >
+          <span className="w-4 h-4 rounded-full bg-yellow-400 border-2 border-blue-500 mr-3 mt-1.5 flex-shrink-0"></span>
+          <span>{member}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+</div>
+
+
 
         {/* Why Choose Section */}
         <div className="mb-12">
           <h3
             className="text-2xl md:text-3xl font-bold text-blue-600 text-center mb-8"
-            style={{ fontFamily: 'Times New Roman, serif' }}
+            style={{ fontFamily: 'Inter, sans-serif',color:'#004979' }}
           >
                           <div className='w-full mb-5 h-[1px] rounded-lg bg-[#0085DC]'></div>
 
@@ -287,7 +303,7 @@ export default function Home() {
             {/* Card 1 */}
             <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
               <h4
-                className="font-bold text-gray-900 mb-3 text-lg"
+                className="font-bold text-gray-900 mb-3 text-base"
                 style={{ fontFamily: 'Roboto, sans-serif' }}
               >
                 Experienced Doctor in Minimally-Invasive Surgery
@@ -305,7 +321,7 @@ export default function Home() {
             {/* Card 2 */}
             <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
               <h4
-                className="font-bold text-gray-900 mb-3 text-lg"
+                className="font-bold text-gray-900 mb-3 text-base"
                 style={{ fontFamily: 'Roboto, sans-serif' }}
               >
                 Approachable & Available to Consult at Multiple Locations
@@ -323,7 +339,7 @@ export default function Home() {
             {/* Card 3 */}
             <div className="bg-white rounded-lg shadow-md p-6 border border-gray-200">
               <h4
-                className="font-bold text-gray-900 mb-3 text-lg"
+                className="font-bold text-gray-900 mb-3 text-base"
                 style={{ fontFamily: 'Roboto, sans-serif' }}
               >
                 Cashless Facilities & Rehabilitation Services Available
@@ -483,7 +499,7 @@ export default function Home() {
 <div className="mb-12">
   <h3
     className="text-xl md:text-2xl font-bold text-blue-600 text-center mb-6"
-    style={{ fontFamily: 'Roboto, sans-serif' }}
+    style={{ fontFamily: 'Roboto, sans-serif',color:'#004979' }}
   >
     Watch these videos to get more information about Dr. Shazia Waghoo.
   </h3>
@@ -502,7 +518,7 @@ export default function Home() {
     </div>
 
     {/* Video 2 */}
-    <div className="relative rounded-lg overflow-hidden aspect-video">
+    {/* <div className="relative rounded-lg overflow-hidden aspect-video">
       <iframe
         className="w-full h-full"
         src="https://www.youtube.com/embed/nEp0H0pcKFE"
@@ -511,10 +527,10 @@ export default function Home() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-    </div>
+    </div> */}
 
     {/* Video 3 */}
-    <div className="relative rounded-lg overflow-hidden aspect-video">
+    {/* <div className="relative rounded-lg overflow-hidden aspect-video">
       <iframe
         className="w-full h-full"
         src="https://www.youtube.com/embed/nEp0H0pcKFE"
@@ -523,10 +539,10 @@ export default function Home() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-    </div>
+    </div> */}
 
     {/* Video 4 */}
-    <div className="relative rounded-lg overflow-hidden aspect-video">
+    {/* <div className="relative rounded-lg overflow-hidden aspect-video">
       <iframe
         className="w-full h-full"
         src="https://www.youtube.com/embed/nEp0H0pcKFE"
@@ -535,7 +551,7 @@ export default function Home() {
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
         allowFullScreen
       ></iframe>
-    </div>
+    </div> */}
   </div>
 </div>
 
