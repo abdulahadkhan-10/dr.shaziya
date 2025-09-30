@@ -160,13 +160,17 @@ export default function Home() {
 
             <ul className="space-y-3 text-xl text-gray-700">
               {[
-                'Criticare Asia, Kurla West',
-                'VLSR, The Clinic',
-                'The Diagnostic Hub',
-                'SRV CHEMBUR',
-                'Chembur clinic (Dr Sheth Clinic)',
-                'Precision super speciality',
-                'NM Aesthetics',
+                'Criticare Asia Group,Andheri(E)&(W),Kurla West & Malad',
+                'RG Stone Hospital,Khar (W)',
+                'Surya Hospitals, Santacruz(W)& Chembur',
+                'Apollo Spectra Hospital,Chembur',
+
+                
+                
+                'SRV Hospital CHEMBUR',
+                'Kokilaben Dhirubhai Ambani Hospital,Koparkhairane',
+                'HVS Hospital,Ghatkopar(W)',
+              
               ].map((hospital) => (
                 <li
                   className="flex items-center font-semibold"
