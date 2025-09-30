@@ -782,7 +782,7 @@ export default function Home() {
 
       <div className="w-full mb-8 h-[0.8px] rounded-lg bg-[#0085DC]"></div>
 
-      {/*Resurces */}
+      {/* Resurces
       <div className="bg-[#F8F9FE] py-12 px-4 text-center mt-14">
         <h2 className="text-4xl font-bold text-blue-900 mb-12 mt-5">
           RESOURCES
@@ -833,7 +833,7 @@ export default function Home() {
             </p>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/*Social work */}
       <div className="bg-white py-12 px-4 text-center">
