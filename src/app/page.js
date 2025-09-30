@@ -588,7 +588,7 @@ export default function Home() {
             {/* Post Image */}
             <div className="relative">
               <img
-                src="/post_2.webp"
+                src="/post.webp"
                 alt="Instagram Post 2"
                 className="w-full h-64 object-cover"
               />
@@ -605,7 +605,7 @@ export default function Home() {
             {/* Post Footer */}
             <div className="p-3">
               <a
-                href="https://www.instagram.com/p/DO_J-1LiqKr/?igsh=MWEwOHN1MWZjbWxxYQ=="
+                href=" https://www.instagram.com/p/DNk5HivKOqd/?igsh=MTBiZTM5eW1ybDVuNw=="
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-blue-600 text-sm mb-2 cursor-pointer hover:underline block"
