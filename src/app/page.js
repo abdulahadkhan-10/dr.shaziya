@@ -35,17 +35,17 @@ export default function Home() {
             </div>
 
             {/* Doctor Info */}
-            <div>
+            <div className='sm:text-left text-center'>
               <h2
-                className="text-3xl md:text-4xl font-bold text-gray-900 mb-4"
+                className="text-3xl md:text-4xl font-bold text-gray-900 mb-4 "
                 style={{ fontFamily: 'Times New Roman, serif' }}
               >
                 Dr. Shazia Waghoo
-              <div className='w-[19rem] h-0.5 rounded-lg bg-[#FFD54F] mt-2'></div>
+              <div className='w-[19rem] h-0.5 rounded-lg bg-[#FFD54F] mt-2 ml-10 md:ml-0'></div>
               </h2>
               
               <p
-  className="text-blue-500 font-semibold text-xl mb-4 tracking-widest"
+  className="text-blue-500 font-semibold text-xl mb-4 tracking-widestmd:text-left "
   style={{ fontFamily: 'Times New Roman, serif' }}
 >
   MBBS, DNB GENERAL SURGERY,<p>  Diploma in Hernia Essentials<p>(by Asia Pacific Society,Endorsedb by Royal College of Surgeons,Edinburgh)</p>
@@ -98,12 +98,20 @@ export default function Home() {
               </div>
 
               {/* CTA Button */}
-              <button
-                className="bg-blue-500 font-bold py-3 mt-[-20] px-8 rounded-full hover:bg-blue-600 transition duration-300 text-sm"
-                style={{ color: '#FFD54F', fontFamily: 'Times New Roman, serif' }}
-              >
-                BOOK AN APPOINTMENT
-              </button>
+<a
+  href="https://drshaziawaghoo.com/contactus"
+  target="_blank"
+  rel="noopener noreferrer"
+  className="block md:inline-block text-center"
+>
+  <button
+    className="bg-blue-500 font-bold py-3 mt-[-20px] px-8 rounded-full hover:bg-blue-600 transition duration-300 text-sm mx-auto md:mx-0"
+    style={{ color: '#FFD54F', fontFamily: 'Times New Roman, serif' }}
+  >
+    BOOK AN APPOINTMENT
+  </button>
+</a>
+
             </div>
           </div>
         </div>
