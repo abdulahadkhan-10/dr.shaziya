@@ -48,7 +48,8 @@ export default function Home() {
   className="text-blue-500 font-semibold text-xl mb-4 tracking-widest"
   style={{ fontFamily: 'Times New Roman, serif' }}
 >
-  MBBS, DNB GENERAL SURGERY
+  MBBS, DNB GENERAL SURGERY,<p>  Diploma in Hernia Essentials<p>(by Asia Pacific Society,Endorsedb by Royal College of Surgeons,Edinburgh)</p>
+</p>
 </p>
 
               <h3
