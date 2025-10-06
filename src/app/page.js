@@ -59,7 +59,7 @@ export default function Home() {
                 className="text-blue-500 font-semibold text-xl mb-4 tracking-widest md:text-left"
                 // style={{ fontFamily: "Times New Roman, serif" }}
               >
-                Diploma in Hernia Essentials <br />
+                Diploma in Hernia Surgeries Essentials <br />
                 (By Asia Pacific Hernia Society & The Royal College of Surgeons
                 of Edinburgh)
               </p>
@@ -216,7 +216,7 @@ export default function Home() {
                   style={{ fontFamily: "Poppins" }}
                   key={hospital}
                 >
-                  <span className="w-4 h-4 rounded-full bg-yellow-400 border-2 border-blue-500 mr-3"></span>
+                  <span className="w-4 h-4 rounded-full bg-yellow-400 border-2  border-blue-500 mt-1.5 mr-3"></span>
                   {hospital}
                 </li>
               ))}
@@ -290,10 +290,11 @@ export default function Home() {
             <ul className="space-y-3 text-xl text-gray-900">
   {[
     "VLSR – The Clinic, 2nd floor, Corinthian, Linking Road, Opp. DBS Bank, Khar West, Mumbai 400052",
-    "The Diagnostic Hub, Florence, Nehru Road, Next to Axis Bank, Vakola, Santacruz East, Mumbai 400055",
     "CritiCare Asia Hospital Kurla (W), Building No 1, Kirol Road, off LBS Marg, near Kohinoor Intl School, Ali Yavar Jung, Kurla (W), Mumbai 400070",
-    "Chembur Clinic (Dr. Sheth Clinic), 8-28/B, DK Sandu Marg, Chembur Gaothan, Chembur, Mumbai 400071",
+    "The Diagnostic Hub, Florence, Nehru Road, Next to Axis Bank, Vakola, Santacruz East, Mumbai 400055",
     "CritiCare Asia Hospital Andheri (E), Plot No 516, Besides SBI, Teli Gali, Maheshwari Nagar, Andheri (E), Mumbai 400069",
+
+    "Chembur Clinic (Dr. Sheth Clinic), 8-28/B, DK Sandu Marg, Chembur Gaothan, Chembur, Mumbai 400071",
     "Precision Super Speciality, Vashi-Turbhe Rd, Sector 17, Vashi, Navi Mumbai, Maharashtra 400705",
   ].map((room) => (
     <li
@@ -335,8 +336,10 @@ export default function Home() {
 
             <ul className="space-y-3 text-base font-semibold text-gray-700">
               {[
-                "Free Surgical Camp At Sehat NGO, Kurla West",
+                // "Free Surgical Camp At Sehat NGO, Kurla West",
                 "Health Camp At Criticare Asia Hospital",
+                "Breast cancer awareness lectures at various locations across Mumbai",
+                "Breast cancer awareness lecture at Rizvi College, Bandra West",
               ].map((work) => (
                 <li
                   className="flex items-start"
@@ -707,7 +710,7 @@ export default function Home() {
   {/* Post Footer */}
   <div className="p-3">
     <a
-      href="https://www.instagram.com/reel/DOh7jBYCiUs/?igsh=MXR0YWZwOWU2azM5aA=="
+      href="https://www.instagram.com/reel/DPaxqZKDCf-/?igsh=OWwzM2JqNnpncDB0"
       target="_blank"
       rel="noopener noreferrer"
       className="text-blue-600 text-sm mb-2 cursor-pointer hover:underline block"
@@ -836,7 +839,7 @@ export default function Home() {
       </div> */}
 
       {/*Social work */}
-      <div className="bg-white py-12 px-4 text-center">
+      {/* <div className="bg-white py-12 px-4 text-center">
         <h2 className="text-4xl font-bold text-[#004979] mb-10">SOCIAL WORK</h2>
 
         <div className="grid md:grid-cols-2 gap-16 max-w-5xl mx-auto">
@@ -862,15 +865,69 @@ export default function Home() {
             </h3>
           </div>
         </div>
-      </div>
+      </div> */}
 
       {/* Awareness*/}
 
-      <div className="bg-white py-10 px-4">
+      
+
+      {/* <div className="bg-white py-10 px-4"> */}
         {/* Heading and line */}
-        <div className="w-full max-w-6xl mx-auto mb-4 px-2">
+        {/* <div className="w-full max-w-6xl mx-auto mb-4 px-2">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#004979] text-center mb-2">
             AWARENESS
+          </h2>
+          <hr className="border-t-2 border-[#004979] w-full mt-9" />
+        </div> */}
+
+        {/* Subtitle */}
+        {/* <div className="w-full max-w-6xl mx-auto mb-8 px-2">
+          <p className="text-[#004979] font-medium text-base sm:text-lg md:text-xl mt-8 ml-2 text-center">
+            Breast cancer awareness lectures at various locations across Mumbai
+          </p>
+        </div> */}
+
+        {/* Image Grid */}
+        {/* <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+          <img
+            src="/aware1.png"
+            alt="Awareness 1"
+            className="rounded-lg object-cover w-full h-72"
+          />
+          <img
+            src="/aware2.png"
+            alt="Awareness 2"
+            className="rounded-lg object-cover w-full h-72"
+          />
+          <img
+            src="/aware3.png"
+            alt="Awareness 3"
+            className="rounded-lg object-cover w-full h-72"
+          />
+          <img
+            src="/aware4.png"
+            alt="Awareness 4"
+            className="rounded-lg object-cover w-full h-72"
+          />
+          <img
+            src="/aware5.png"
+            alt="Awareness 5"
+            className="rounded-lg object-cover w-full h-72"
+          />
+          <img
+            src="/aware6.png"
+            alt="Awareness 6"
+            className="rounded-lg object-cover w-full h-72"
+          />
+        </div> */}
+      {/* </div> */}
+
+         {/* Awareness Section */}
+      <div className="bg-white py-10 px-4">
+        {/* Main Heading */}
+        <div className="w-full max-w-6xl mx-auto mb-5 px-2">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-[#004979] text-center mb-2">
+            SOCIAL AWARENESS
           </h2>
           <hr className="border-t-2 border-[#004979] w-full mt-9" />
         </div>
@@ -883,7 +940,7 @@ export default function Home() {
         </div>
 
         {/* Image Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
           <img
             src="/aware1.png"
             alt="Awareness 1"
@@ -915,6 +972,39 @@ export default function Home() {
             className="rounded-lg object-cover w-full h-72"
           />
         </div>
+
+        {/* Horizontal Line */}
+        <div className="border-b border-[#004979] max-w-6xl mx-auto mb-10"></div>
+
+        {/* Rizvi College Section */}
+        <h3 className="text-xl md:text-2xl font-bold text-[#004979] mb-9 text-center leading-relaxed max-w-6xl mx-auto">
+          Breast cancer awareness lecture at Rizvi College, Bandra West
+        </h3>
+
+        {/* Rizvi Lecture Images Grid */}
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 max-w-6xl mx-auto mb-16">
+          <img src="/event1.png" alt="Rizvi Lecture 1" className="w-full h-72 object-cover rounded-lg" />
+          <img src="/event2.png" alt="Rizvi Lecture 2" className="w-full h-72 object-cover rounded-lg" />
+          <img src="/event3.png" alt="Rizvi Lecture 3" className="w-full h-72 object-cover rounded-lg" />
+          <img src="/event4.png" alt="Rizvi Lecture 4" className="w-full h-72 object-cover rounded-lg" />
+          <img src="/event5.png" alt="Rizvi Lecture 5" className="w-full h-72 object-cover rounded-lg" />
+          <img src="/event6.png" alt="Rizvi Lecture 6" className="w-full h-72 object-cover rounded-lg" />
+        </div>
+
+        {/* Horizontal Line */}
+        <div className="border-b border-[#004979] max-w-6xl mx-auto mb-10"></div>
+
+        {/* Operation Theatre Section */}
+        {/* <div className="max-w-6xl mx-auto">
+          <h3 className="text-2xl md:text-3xl font-bold text-[#004979] mb-8 text-center">
+            In the Operation Theatre
+          </h3>
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
+            <img src="/ot1.png" alt="Operation Theatre 1" className="w-full aspect-square object-cover rounded-xl" />
+            <img src="/ot2.png" alt="Operation Theatre 2" className="w-full aspect-square object-cover rounded-xl" />
+            <img src="/ot3.png" alt="Operation Theatre 3" className="w-full aspect-square object-cover rounded-xl" />
+          </div>
+        </div> */}
       </div>
 
       <div className="relative bg-[#F8F9FE] pt-16 pb-16 px-4 md:px-20 overflow-hidden">
@@ -926,6 +1016,8 @@ export default function Home() {
           Watch these videos to get more information about
           <br /> Dr. Shazia Waghoo.
         </h2>
+
+        
 
         {/* Video Grid */}
         <div className="relative z-10 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
