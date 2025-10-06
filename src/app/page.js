@@ -88,37 +88,37 @@ export default function Home() {
 
               {/* Areas of Expertise */}
               <div className="mb-14 mt-10">
-                <h3
-                  className="text-2xl font-bold text-gray-900 mb-3"
-                  style={{ fontFamily: "Times New Roman, serif" }}
-                >
-                  Areas Of Expertise :
-                </h3>
-                <div
-  className="grid grid-cols-2 gap-x-6 gap-y-3 text-gray-800 text-lg"
-  style={{ fontFamily: "Inria Sans, sans-serif" }}
->
-  {[
-    "Minimally invasive Hernia Surgery",
-    "Laparoscopic Surgery",
-    "Gastrointestinal surgery",
-    "Breast surgery",
-    "Abdominal wall reconstruction surgery",
-    "Anorectal laser surgery",
-    "Colorectal surgery",
-    "General surgery",
-    "Vascular surgery",
-    "Thyroid surgery",
-  ].map((item) => (
-    <div key={item} className="flex items-start">
-      <span className="w-4 h-4 rounded-full bg-yellow-400 border-2 border-blue-500 mr-3 mt-1.5 shrink-0"></span>
-      <span>{item}</span>
-    </div>
-  ))}
+  <h3
+    className="text-2xl font-bold text-gray-900 mb-3"
+    style={{ fontFamily: "Times New Roman, serif" }}
+  >
+    Areas Of Expertise :
+  </h3>
+
+  <div
+    className="grid grid-cols-1 sm:grid-cols-2 gap-x-6 gap-y-3 text-gray-800 text-lg"
+    style={{ fontFamily: "Inria Sans, sans-serif" }}
+  >
+    {[
+      "Minimally invasive Hernia Surgery",
+      "Laparoscopic Surgery",
+      "Gastrointestinal surgery",
+      "Breast surgery",
+      "Abdominal wall reconstruction surgery",
+      "Anorectal laser surgery",
+      "Colorectal surgery",
+      "General surgery",
+      "Vascular surgery",
+      "Thyroid surgery",
+    ].map((item) => (
+      <div key={item} className="flex items-start">
+        <span className="w-3.5 h-3.5 rounded-full bg-yellow-400 border-2 border-blue-500 mt-1.5 mr-3 shrink-0"></span>
+        <span className="leading-snug">{item}</span>
+      </div>
+    ))}
+  </div>
 </div>
 
-
-              </div>
 
               {/* CTA Button */}
               {/* <a
