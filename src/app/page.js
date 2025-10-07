@@ -59,7 +59,7 @@ export default function Home() {
                 className="text-blue-500 font-semibold text-xl mb-4 tracking-widest md:text-left"
                 // style={{ fontFamily: "Times New Roman, serif" }}
               >
-                Diploma in Hernia Surgeries Essentials <br />
+                Diploma in Hernia Surgery Essentials <br />
                 (By Asia Pacific Hernia Society & The Royal College of Surgeons
                 of Edinburgh)
               </p>
@@ -710,7 +710,7 @@ export default function Home() {
   {/* Post Footer */}
   <div className="p-3">
     <a
-      href="https://www.instagram.com/reel/DPaxqZKDCf-/?igsh=OWwzM2JqNnpncDB0"
+      href="https://www.instagram.com/reel/DPV-ds0Ck7i/?igsh=MWpxZTM2aG4wN3RpZA=="
       target="_blank"
       rel="noopener noreferrer"
       className="text-blue-600 text-sm mb-2 cursor-pointer hover:underline block"
