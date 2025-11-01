@@ -59,7 +59,7 @@ export default function Home() {
                 className="text-blue-500 font-semibold text-xl mb-4 tracking-widest md:text-left"
                 // style={{ fontFamily: "Times New Roman, serif" }}
               >
-                Diploma in Hernia Surgery Essentials <br />
+                DIPLOMA in HERNIA SURGERY Essentials <br />
                 (By Asia Pacific Hernia Society & The Royal College of Surgeons
                 of Edinburgh)
               </p>
@@ -296,6 +296,7 @@ export default function Home() {
 
     "Chembur Clinic (Dr. Sheth Clinic), 8-28/B, DK Sandu Marg, Chembur Gaothan, Chembur, Mumbai 400071",
     "Precision Super Speciality, Vashi-Turbhe Rd, Sector 17, Vashi, Navi Mumbai, Maharashtra 400705",
+    "NM Aesthetics, Shop number 1, Ground Floor, Kaku kunj society, OPP Mazgaon Garden, Mumbai, Maharashtra 400010",
   ].map((room) => (
     <li
       key={room}
