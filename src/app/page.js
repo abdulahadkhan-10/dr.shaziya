@@ -329,18 +329,18 @@ export default function Home() {
             >
               <img
                 src="/social-work.svg"
-                alt="Social Work"
+                alt="Publication "
                 className="w-6 h-6 mr-2"
               />
-              <span>Social Work</span>
+              <span>Publication</span>
             </h3>
 
             <ul className="space-y-3 text-base font-semibold text-gray-700">
               {[
                 // "Free Surgical Camp At Sehat NGO, Kurla West",
-                "Health Camp At Criticare Asia Hospital",
-                "Breast cancer awareness lectures at various locations across Mumbai",
-                "Breast cancer awareness lecture at Rizvi College, Bandra West",
+                "Delayed Management of Chemoport Complication Indian Journal of Surgical Oncology, September 20",
+                "Can Intraoperative Pelvic Peritoneal Disease Predict Nodal Metastasis in Advanced Ovarian Cancer and Guide Systematic Nodal Dissection Indian Journal of Surgical Oncology, February 2019",
+                "Aberrant Renal Vessels Annals of Case Reports and Images, 2019",
               ].map((work) => (
                 <li
                   className="flex items-start"
